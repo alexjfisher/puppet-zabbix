@@ -5,3 +5,4 @@ Gemfile:
   optional:
     ':test':
       - gem: 'fakefs'
+      - gem: 'zabbixapi'

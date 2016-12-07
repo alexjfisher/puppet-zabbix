@@ -32,6 +32,7 @@ group :test do
   gem 'coveralls',                                                  :require => false if RUBY_VERSION >= '2.0.0'
   gem 'simplecov-console',                                          :require => false if RUBY_VERSION >= '2.0.0'
   gem 'fakefs',                                                     :require => false
+  gem 'zabbixapi',                                                  :require => false
 end
 
 group :development do
